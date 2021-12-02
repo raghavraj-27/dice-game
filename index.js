@@ -15,7 +15,7 @@ function refresh() {
       document.getElementById("p1").innerHTML += " Lose !";
       document.getElementById("p2").innerHTML += " Wins !";
     } else {
-      document.getElementById("p1").innerHTML += " Wins !";
-      document.getElementById("p2").innerHTML += " Wins !";
+      document.getElementById("p1").innerHTML = "      Match tie !";
+      document.getElementById("p2").innerHTML = " ";
     }
   }
